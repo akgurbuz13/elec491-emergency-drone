@@ -1,5 +1,3 @@
-# LoraComm
-
 # Drone Emergency Communication Network
 
 ## Overview
