@@ -1,0 +1,64 @@
+# General
+.DS_Store
+*.log
+*.tmp
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.eggs/
+*.egg-info/
+dist/
+build/
+*.so
+
+# VideoProcessing specific
+VideoProcessing/logs/
+VideoProcessing/system.log
+VideoProcessing/lora_bridge.log
+VideoProcessing/yolov8n.pt
+VideoProcessing/models/
+VideoProcessing/reference_images/
+
+# Xcode
+# See https://github.com/github/gitignore/blob/main/Global/Xcode.gitignore
+
+# Build generated
+build/
+DerivedData/
+
+# Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+# Other
+*.moved-aside
+*.ipa
+*.dsym
+*.xcarchive
+
+# Swift Package Manager
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+# Package.pins
+# Package.resolved
+.swiftpm/
+
+# EmergencyApp specific
+EmergencyApp/EmergencyMessenger/EmergencyMessenger*/ 
